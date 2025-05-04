@@ -1,0 +1,182 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto';
+}
+body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+main {
+    flex: 1;
+}
+header, footer {
+    flex: 0 0 auto;
+    background-color: #1F2937;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    overflow: auto;
+}
+.headerLogo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.headerHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+.headerLinks {
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+}
+.headerLinks a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.headerMain {
+    display: flex;
+    width: 70%;
+    height: 300px;
+    justify-content: space-between;
+    margin: 100px;
+}
+.headerText {
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    justify-content: space-between;
+}
+.headerText h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    weight: 900;
+}
+.headerText p {
+    overflow: auto;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.headerText button {
+    width: 100px;
+    height: auto;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 10px;
+    border-radius: 10px;
+}
+.headerMain img {
+    height: 100%;
+    width: auto;
+}
+
+main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+main section {
+    width: 100%;
+    margin: 100px;
+}
+.information {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.informationHeader {
+    font-size: 36px;
+    color: #1F2937;
+    weight: 900;
+}
+.informationMain {
+    width: 70%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+.informationSection {
+    width: 20%;
+}
+.informationSection img {
+    width: 100%;
+    height: auto;
+}
+
+.inspiringQuote {
+    display: flex;
+    flex-flow: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    padding: 100px;
+}
+.inspiringQuote p {
+    width: 70%;
+}
+.inspiringQuoteText {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+.inspiringQuoteName {
+    text-align: end;
+}
+
+.signUp {
+    width: 70%;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+.signUp p {
+    width: 70%;
+    color: #E5E7EB;
+}
+.signUp p:first-child {
+    font-size: 24px;
+    font-weight: 900;
+}
+.signUp button {
+    background-color: #3882F6;
+    border: 1px solid #F9FAF8;
+    padding: 10px;
+    color: #F9FAF8;
+    border-radius: 10px;
+    width: 200px;
+}
+
+
+footer {
+    width: 100%;
+}
+footer p {
+    text-align: center;
+    color: #E5E7EB;
+}
